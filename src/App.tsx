@@ -309,13 +309,13 @@ export default function App() {
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img 
-              src="./LSCG_LOGO_RGB.png" 
-              alt="LSCG Logo" 
+              src="./logo.png" 
+              alt="ITG Logo" 
               className="h-10 w-auto object-contain"
               referrerPolicy="no-referrer"
             />
             <div className="border-l border-stone-200 pl-3">
-              <h1 className="text-lg font-bold tracking-tight">LSCG Batch PDF Compressor</h1>
+              <h1 className="text-lg font-bold tracking-tight">ITG Batch PDF Compressor</h1>
               <p className="text-[10px] text-stone-500 font-medium uppercase tracking-wider">Professional PDF Optimization</p>
             </div>
           </div>
@@ -737,7 +737,7 @@ export default function App() {
       {/* Footer */}
       <footer className="max-w-5xl mx-auto px-6 py-12 border-t border-stone-200 mt-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-stone-400 text-xs">
-          <p>© 2026 LSCG Batch PDF Compressor. Secure execution framework.</p>
+          <p>© 2026 ITG Batch PDF Compressor. Secure execution framework.</p>
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1"><Clock size={11} /> 100% Client-Side Engine</span>
             <a href="#" className="hover:text-stone-600 transition-colors">Privacy</a>
